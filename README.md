@@ -25,5 +25,5 @@ But we can mapping a folder to work with inside our containner, just mounting ou
 docker run -p 8888:8888 -v c:\Users:/root/users feromes/ifc-bim
 ```
 
-Remember to change `c:\Users` with your folder
+Remember to change `c:\Users` with your folder. And you have to be able to share files already, [check this documentation out](https://docs.microsoft.com/en-us/visualstudio/containers/troubleshooting-docker-errors?view=vs-2019) in order to get well.
 
