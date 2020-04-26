@@ -14,3 +14,16 @@ docker run -p 8888:8888 feromes/ifc-bim
 ```
 
 If evertything works fine you should be able to click in a link showed in command line to open your jupyter notebook instance running on port 8888
+
+## Get access to your own files
+
+Of course you want to create and deal with your files, but when you shutdown your containner everthing will go :(
+
+But we can mapping a folder to work with inside our containner, just mounting our volume when start the containner, like that?
+
+```
+docker run -p 8888:8888 -v c:\Users:/root/users feromes/ifc-bim
+```
+
+Remember to change `c:\Users` with your folder
+
