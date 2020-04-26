@@ -32,4 +32,4 @@ EXPOSE 8888
 COPY ["*.ipynb", "ifc_viewer.py", "IfcOpenHouse/IfcOpenHouse_IFC4.ifc", "/root/"]
 
 CMD cd ~ && \
-    jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root --NotebookApp.token=''
+    jupyter notebook --ip=0.0.0.0 --port=8888 --allow-root --Notebookapp.token=''
