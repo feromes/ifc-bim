@@ -1,0 +1,3 @@
+[submodule "IfcOpenHouse"]
+	path = IfcOpenHouse
+	url = https://github.com/aothms/IfcOpenHouse.git
